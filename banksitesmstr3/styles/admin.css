@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Caveat', cursive;
+    background-image: url(../images/backgroundindex1.jpg );
+
+}
+header{
+  padding-top: 2rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.3);
+  border-bottom: 2px solid black;
+}
+#logoutadmin{
+
+top: 100px;
+text-align: right;
+}
+#logoutbtn{
+  background-color: rgba(0, 0, 0,0.7);
+  color: antiquewhite;
+  padding: 1.15rem;
+ 
+}
+#depositform{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+ul{
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2.5rem;
+  
+}
+a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+li{
+  padding-right: 20px;
+  
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+}
+.disablemode {
+  visibility: hidden;
+  opacity: 0;
+}
+.enablemode {
+  visibility: visible;
+  opacity: 1;
+}
+.depositformbuttons{
+ text-align: center;
+ 
+ width: 40%;
+ margin: 0.2rem;
+ border-radius: 5px;
+}
+label{
+  font-size: 1.2rem;
+}
+.signupuser{
+  border-radius: 8px;
+ margin-bottom: 20px;
+}
+.alltrantable{
+    color: rgb(229, 226, 226);
+    background-color: rgba(122, 122, 122, 0.897);
+
+  border: gray;
+  min-width: 100%;
+  font-size: 1.8rem;
+  width: 100%;
+}
+.alltrantable tr:not(:first-child):hover{
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.575);
+  color: aliceblue;
+}
+button{
+  padding: 1rem;
+  border: none;
+  margin-top: 3px;
+  background-color: rgba(245, 222, 179, 0.637);
+  color: rgb(212, 3, 3);
+}
+form{
+  color: aliceblue;
+}
